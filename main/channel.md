@@ -1,8 +1,8 @@
-#channel
+# channel
 
 ---
 
-##缓冲channel
+## 缓冲channel
 ```go
 ch := make(chan chanType，n)
 n为缓冲区大小
@@ -20,7 +20,7 @@ chanType为channel的类型
 ```
 ---
 
-#select
+# select
 
 >linux 很早引入的函数，用来实现非阻塞的一种方式
 ```go
@@ -35,7 +35,7 @@ select {
 }
 ```
 
-###协程
+### 协程
 
 **协程** 
     协程业务代码会一直运行
